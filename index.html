@@ -22,13 +22,163 @@
 
 </head>
 <body>
+    <section class="max-w-4xl px-4 my-10 mx-auto">
+
+
     <!-- heading section -->
-     <div class="w-11/12 mx-auto space-y-3 ">
+     <div class=" space-y-3 ">
         <h1 class="text-xl lg:text-4xl font-bold py-4 " >Job  Application Form</h1>
          <hr>
          <p class="text-sm lg:text-lg">Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application bt filling out the Job Application From.</p>
+
+
     </div>
      <!-- heading section end -->
+
+     <!-- input section start here -->
+    <form>
+        <!-- name section -->
+        <div class=" flex  flex-col md:flex-row items-center gap-5 mt-4">
+            <div class="w-full md:w-[50%]">
+                 <label class="font-bold block mb-1"> First Name:</label>
+            <input required placeholder="Enter first name"  class="py-2 px-4 w-full rounded-md" type="text">
+
+            </div>
+            
+            <div class=" w-full md:w-[50%]">
+                 <label class="font-bold block mb-1"> Last Name:</label>
+                <input required placeholder="Enter last name" class="py-2 px-4 w-full rounded-md" type="text">
+
+            </div>
+            
+            
+        </div>
+        <!-- gmail section -->
+           <div class=" w-full pt-4 ">
+                 <label class="font-bold block mb-1">Email:</label>
+                <input required placeholder="Enter a valid email" class="py-2 px-4 w-full rounded-md" type="text">
+
+            </div>
+        <!-- position & date section -->
+          <div class=" flex  flex-col md:flex-row items-center gap-5 mt-4">
+            <div class="w-full md:w-[50%]">
+               
+                 <label class="font-bold block mb-1">What position are you applying for ?</label>
+               <select class="w-full px-4 py-2 rounded-md"> 
+                <option value="job type" >job type</option>
+                <option value="Banking Job">Banking Job</option>
+                <option value="IT Company">IT Company</option>
+                <option value="Typing Job">Typing Job</option>
+                <option value="Driving Job">Driving Job</option>
+               </select>
+           </div>
+            
+            <div class=" w-full md:w-[50%]">
+                 <label class="font-bold block mb-1">Available Date</label>
+                <input required placeholder="Enter last name" class="py-2 px-4 w-full rounded-md" type="date">
+
+            </div>
+
+            </div>
+
+            <!-- What is your current employee status -->
+            <div class=" w-full pt-4 ">
+                <label class="font-bold block mb-1">What is your current Employee status ?</label>
+            
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            
+                    <div class="flex  flex-col items-start  w-full ">
+                        <label> <input type="radio"> Employed</label>
+                        <label> <input type="radio">Self-Employed</label>
+            
+                    </div>
+            
+                    <div class="flex  flex-col items-start  w-full ">
+            
+                        <label> <input type="radio">Un-Employed</label>
+                        <label> <input type="radio">Student</label>
+                    </div>
+            
+            
+                </div>
+
+
+              
+             
+                
+
+            </div>
+            <!-- What is your current employee status end -->
+
+             <!-- link section -->
+           <div class=" flex  flex-col md:flex-row items-center gap-5 mt-4">
+            <div class="w-full md:w-[50%]">
+                 <label class="font-bold block mb-1">Please provide your resume link</label>
+            <input required placeholder="https://WWW.example.com"  class="py-2 px-4 w-full rounded-md" type="text">
+
+            </div>
+            
+            <div class=" w-full md:w-[50%]">
+                 <label class="font-bold block mb-1">Resume:</label>
+                <input required placeholder="Resume" class="py-2 px-4 w-full rounded-md" type="file">
+
+            </div>
+            
+            
+           </div>
+
+
+            <!-- reference section -->
+           <div class=" flex  flex-col md:flex-row items-center gap-5 mt-4">
+            <div class="w-full md:w-[50%]">
+                 <label class="font-bold block mb-1">Do you have reference ?(Optical)</label>
+            <input required placeholder="first"  class="py-2 px-4 w-full rounded-md" type="text">
+
+            </div>
+            
+            <div class=" w-full md:w-[50%]">
+                 <label class="font-bold block mb-1">Last</label>
+                <input required placeholder="Last" class="py-2 px-4 w-full rounded-md" type="text">
+
+            </div>
+            
+            
+           </div>
+
+            <!-- reference gmail section -->
+           <div class=" w-full pt-4 ">
+                 <label class="font-bold block mb-1">Reference Email:</label>
+                <input required placeholder="Enter a valid email" class="py-2 px-4 w-full rounded-md" type="text">
+
+            </div>
+
+            <!-- buttons are here -->
+             <div class="pt-4">
+                 <button type="reset" class="px-4 py-2 rounded-lg border border-black cursor-pointer ">Reset</button>
+                 <button type="submit" class="px-4 py-2 rounded-lg bg-black text-white cursor-pointer">Apply</button>
+                
+
+             </div>
+            
+
+
+
+
+
+
+
+        
+    </form>
+
+ 
+
+
+
+
+
+    
+        </section>
+     <!-- input section end here -->
 
 
     
